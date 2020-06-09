@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf15435770178211" configfile="/labHibernate2/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="Login.xhtml" x="210" y="190" id="pf15435774302002" referenceLink="//@navigationRule.1/@fromViewId|" outlinks="pf15435774302003 pf15435774302004" path="/Login.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Fulanito.xhtml" x="492" y="288" id="pf15435774302005" referenceLink="//@navigationRule.1/@navigationCase.0/@toViewId|" inlinks="pf15435774302004" path="/Fulanito.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Hola.xhtml" x="498" y="125" id="pf15435774302006" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf15435774302003" path="/Hola.xhtml"/>
+  <links id="pf15435774302003" target="pf15435774302006" source="pf15435774302002" outcome="ok"/>
+  <links id="pf15435774302004" target="pf15435774302005" source="pf15435774302002" outcome="error"/>
+</pageflow:Pageflow>
